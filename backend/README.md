@@ -14,6 +14,13 @@
 `npm run start` — запускает сервер   
 `npm run dev` — запускает сервер с hot-reload
 
+## Пример содержимого .env
+
+PORT=3000
+JWT_SECRET=
+JWT_EXPIRESIN=
+CORS='http://example.com http://localhost:3000'
+
 ## Ссылка на репозиторий
 
 https://github.com/voitekhovich/express-mesto-gha

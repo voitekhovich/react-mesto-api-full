@@ -1,10 +1,12 @@
 require('dotenv').config();
 
-const { CORS = 'http://localhost' } = process.env;
+const { CORS } = process.env;
+
+const allowedCors = CORS.split(' ');
 
 module.exports.cors = (req, res, next) => {
   const { origin } = req.headers;
-  if (CORS.includes(origin)) {
+  if (allowedCors.includes(origin)) {
     res.header('Access-Control-Allow-Origin', origin);
     res.header('Access-Control-Allow-Credentials', 'true');
   }

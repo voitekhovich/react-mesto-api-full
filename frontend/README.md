@@ -14,5 +14,9 @@
 * [Оптимизация картинок](https://tinypng.com/)
 * Сборка проекта [Вебпаком](https://webpack.js.org/)
 
+## Пример содержимого .env
+
+REACT_APP_BASE_URL='http://localhost:3000'
+
 ## GitHub Pages
 https://voitekhovich.github.io/mesto/
