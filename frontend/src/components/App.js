@@ -61,17 +61,12 @@ export default function App() {
       })
       .catch((err) => {
         switch (err) {
-          case 400:
-            console.log(
-              `${err} - Токен не передан или передан не в том формате`
-            );
-            break;
           case 401:
-            console.log(`${err} - Переданный токен некорректен`);
+            console.log(`${err} - Необходима авторизация`);
             break;
           default:
             console.log(err);
-        }
+        };
       });
   };
 
