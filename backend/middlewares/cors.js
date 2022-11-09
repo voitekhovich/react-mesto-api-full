@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 const allowedCors = [
   'https://mesto.voitekhovich.nomoredomains.icu',
   'http://mesto.voitekhovich.nomoredomains.icu',
