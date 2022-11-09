@@ -1,7 +1,7 @@
-import { BASE_URL } from "./constants";
+import { REACT_APP_BASE_URL } from "./constants";
 
 const request = ({ url, method = "POST", token, data }) => {
-  return fetch(`${BASE_URL}${url}`, {
+  return fetch(`${REACT_APP_BASE_URL}${url}`, {
     method,
     credentials: 'include',
     headers: {

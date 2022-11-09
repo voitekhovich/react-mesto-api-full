@@ -1,4 +1,4 @@
-export const { BASE_URL = 'http://localhost:3000'} = process.env.REACT_APP_BASE_URL;
+export const { REACT_APP_BASE_URL = 'http://localhost:3000' } = process.env;
 
 export const headers = {
   // authorization: token,

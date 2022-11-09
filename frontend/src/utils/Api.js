@@ -1,4 +1,4 @@
-import { BASE_URL, headers } from "./constants.js";
+import { REACT_APP_BASE_URL, headers } from "./constants.js";
 
 class Api {
   constructor({ baseUrl, headers }) {
@@ -90,4 +90,4 @@ class Api {
   }
 }
 
-export const api = new Api({ baseUrl: BASE_URL, headers });
+export const api = new Api({ baseUrl: REACT_APP_BASE_URL, headers });
