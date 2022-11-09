@@ -18,13 +18,13 @@ mongoose.connect(MONGO_DB_URL);
 
 app.use(cors);
 
+app.use(requestLogger);
+
 app.use(limiter);
 app.use(helmet());
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
-app.use(requestLogger);
 
 app.use(require('./routes'));
 
@@ -33,6 +33,16 @@ app.use(errorLogger);
 app.use(errors());
 app.use(errs);
 
+const dateOptions = {
+  year: 'numeric',
+  month: 'numeric',
+  day: 'numeric',
+  timezone: 'Europe/Moscow',
+  hour: 'numeric',
+  minute: 'numeric',
+  second: 'numeric',
+};
+
 app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}`);
+  console.log(`${(new Date().toLocaleString('ru', dateOptions))}: App listening on port ${PORT}`);
 });

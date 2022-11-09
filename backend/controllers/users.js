@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
@@ -10,8 +8,6 @@ const { ConflictError } = require('../utils/errors/ConflictError');
 const { DEV_JWT_SECRET, DEV_JWT_EXPIRESIN } = require('../utils/constans');
 
 const { JWT_SECRET = DEV_JWT_SECRET, JWT_EXPIRESIN = DEV_JWT_EXPIRESIN } = process.env;
-
-require('dotenv').config();
 
 module.exports.getUsers = (req, res, next) => {
   User.find({})

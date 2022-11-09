@@ -1,8 +1,10 @@
 require('dotenv').config();
 
-const { CORS } = process.env;
-
-const allowedCors = CORS.split(' ');
+const allowedCors = [
+  'https://mesto.voitekhovich.nomoredomains.icu',
+  'http://mesto.voitekhovich.nomoredomains.icu',
+  'http://localhost:3001',
+];
 
 module.exports.cors = (req, res, next) => {
   const { origin } = req.headers;
