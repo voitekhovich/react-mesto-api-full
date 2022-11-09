@@ -3,6 +3,6 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-api.mesto.voitekhovich.nomoredomains.icu
-mesto.voitekhovich.nomoredomains.icu
-51.250.11.163
+- IP 51.250.11.163
+- Frontend https://mesto.voitekhovich.nomoredomains.icu
+- Backend https://api.mesto.voitekhovich.nomoredomains.icu
