@@ -1,4 +1,4 @@
-# Проект «[Место](https://voitekhovich.github.io/mesto/)» (frontend + backend)
+# Проект «[Место](https://mesto.voitekhovich.nomoredomains.icu/)» (frontend + backend)
 
 Учебный проект [Яндекс.Практикум](https://practicum.yandex.ru/) по курсу "Интерфейсы с использованием React" и "Основы бэкенда для фронтенд-разработчиков".\
 Сервис Mesto: интерактивная страница, куда можно добавлять фотографии, удалять их, ставить лайки и редактировать профиль.
@@ -22,6 +22,9 @@ https://user-images.githubusercontent.com/30049720/221412047-47975354-4a56-4716-
 * Node.js
 * MongoDB
 * React
+
+## 📺 Посмотреть вживую
+https://mesto.voitekhovich.nomoredomains.icu/
 
 ## 🛠 Запуск локально
 
@@ -55,7 +58,7 @@ npm run start
 * Node.js - 16.18.0
 * MongoDB - 4.4.x
 * PM2
-* NGINX
+* Nginx
 
 ```
 git clone https://github.com/voitekhovich/react-mesto-api-full.git
