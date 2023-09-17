@@ -1,0 +1,21 @@
+{
+  "main.css": "static/css/main.d114b3bf.css",
+  "main.css.map": "static/css/main.d114b3bf.css.map",
+  "main.js": "static/js/main.5e465a1c.js",
+  "main.js.map": "static/js/main.5e465a1c.js.map",
+  "static/media/Inter-Black.woff2?v=3.19": "static/media/Inter-Black.661569af.woff2",
+  "static/media/Inter-Black.woff?v=3.19": "static/media/Inter-Black.d0b121f3.woff",
+  "static/media/Inter-Medium.woff2?v=3.19": "static/media/Inter-Medium.75db5319.woff2",
+  "static/media/Inter-Medium.woff?v=3.19": "static/media/Inter-Medium.c0638bea.woff",
+  "static/media/Inter-Regular.woff2?v=3.19": "static/media/Inter-Regular.dc131113.woff2",
+  "static/media/Inter-Regular.woff?v=3.19": "static/media/Inter-Regular.3ac83020.woff",
+  "static/media/activeLike.svg": "static/media/activeLike.3d813f81.svg",
+  "static/media/addBtn.svg": "static/media/addBtn.b2fce4ac.svg",
+  "static/media/closeBtn.svg": "static/media/closeBtn.cb0f2bbf.svg",
+  "static/media/disabledLike.svg": "static/media/disabledLike.00b1c22a.svg",
+  "static/media/editBtn.svg": "static/media/editBtn.6bfdb354.svg",
+  "static/media/err.svg": "static/media/err.4072126c.svg",
+  "static/media/mesto_logo.svg": "static/media/mesto_logo.7baba3c1.svg",
+  "static/media/ok.svg": "static/media/ok.e38b395c.svg",
+  "static/media/trashBtn.svg": "static/media/trashBtn.4831282e.svg"
+}
