@@ -7,7 +7,7 @@ import "./index.css";
 const container = document.querySelector(".page");
 const root = createRoot(container);
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/react-mesto-api-full">
     <App />
   </BrowserRouter>
 );
