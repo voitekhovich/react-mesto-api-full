@@ -1,5 +1,5 @@
 const allowedCors = [
-  'https://movies.avcode.ru",
+  'https://mesto.avcode.ru',
   'http://localhost:3001',
 ];
 
